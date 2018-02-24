@@ -1,0 +1,33 @@
+.vt-wrapper
+{
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+    max-width: 400px;
+    width:100%;
+    border-radius: 3px;
+}
+
+.vt-video,
+.vt-track
+{
+    flex: 1 1 auto;
+    height: 300px;
+}
+
+.vt-video
+{
+    width: 100%;
+}
+
+.vt-text {
+    text-align: center;
+    padding-bottom:5px;
+    font-size: large;
+    color: #000;
+}
